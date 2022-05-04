@@ -1,0 +1,12 @@
+.nuestroEquipo-imagenes {
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 275px 275px 275px;
+}
+
+@media screen and (min-width: 1024px) {
+    .nuestroEquipo-imagenes {
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 275px;
+    }
+}

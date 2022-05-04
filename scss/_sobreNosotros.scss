@@ -1,0 +1,37 @@
+.imagenSobreNosotros {
+    width: 100%;
+
+    animation-name: rotacionImagenSobreNosotros;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    animation-duration: 10s;
+}
+
+.imagenPista {
+    width: 100%;
+
+    animation-name: rotacionImagenNuestraPista;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    animation-duration: 10s;
+}
+
+@media screen and (min-width: 768px) {
+    .imagenSobreNosotros {
+        width: 500px;
+        border: 2px solid black;
+        border-radius: 25px;
+
+    }
+
+    .imagenPista {
+        border: 2px solid black;
+        border-radius: 25px;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .imagenPista {
+        width: 700px;
+    }
+}
