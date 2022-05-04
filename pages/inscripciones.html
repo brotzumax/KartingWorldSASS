@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--Bootstrap CSS-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+    <!--CSS Personal-->
+    <link rel="stylesheet" href="../styles/main.css">
+
+    <title>Inscripciones</title>
+</head>
+
+<body>
+    <header class="mb-5">
+        <nav class="navbar navbar-expand-md navbar-dark bg-danger fixed-top ">
+            <div class="container-fluid">
+                <a class="navbar-brand fs-1 ms-md-5" href="../index.html">
+                    <h1 class="mb-0">Karting World</h1>
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav fs-5 ms-auto me-5">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="./resultados.html">Resultados</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./inscripciones.html">Inscripciones</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./galeria.html">Galeria</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./eventos.html">Eventos</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <div class="container-fluid px-md-5 fondoCuadros">
+            <div class="row bg-light py-5">
+                <div class="col-12 col-lg-7">
+                    <h2 class="text-danger fs-2">Requisitos de inscripcion</h2>
+                    <div class="container-fluid px-0 pt-2 ps-lg-3">
+                        <p>
+                            El Campeonato Zonal Cuyano de Automovilismo, se encuentra Fiscalizado por la
+                            Federación Mendocina de Automovilismo Deportivo, dependiente de la CDA, que se
+                            compromete a
+                            aplicar, respetar y observar el Reglamento Deportivo Automovilístico (R.D.A.), el Código
+                            Deportivo
+                            Internacional (C.D.I.), estas Bases del Campeonato Zonal Cuyano de Automovilismo, el
+                            Reglamento
+                            Particular de la Prueba (R.P.P.), y toda norma o anexo que se legisle en el futuro.
+                        </p>
+                        <p class="text-danger">
+                            De acuerdo a la ley provincial 7461, solo podrán participar los pilotos con licencia
+                            médica
+                            nacional
+                            expedida por la C.D.A. del Automóvil Club Argentino y Licencia Deportiva, expedida por
+                            la
+                            Federación
+                            Mendocina de Automovilismo Deportivo (Fe.M.A.D.).
+                        </p>
+                        <p>
+                            <span>Requisitos</span>
+                        <ul>
+                            <li>Ser mayor de 18 años</li>
+                            <li>Contar con licencia tipo A3</li>
+                            <li>Contar con licencia emitida por el Automovil Club Argentino (ACA)</li>
+                        </ul>
+                        </p>
+                    </div>
+                </div>
+
+                <div class="col-12 col-lg-5">
+                    <form class="border border-2 border-primary rounded-3 px-3">
+                        <div class="mb-3 pt-3">
+                            <label for="inputNombre" class="form-label">Nombre</label>
+                            <input type="text" class="form-control">
+                        </div>
+
+                        <div class="mb-3">
+                            <label for="inputApellido" class="form-label">Apellido</label>
+                            <input type="text" class="form-control">
+                        </div>
+
+                        <div class="mb-3">
+                            <label for="inputEmail" class="form-label">Dirección Email</label>
+                            <input type="email" class="form-control" id="exampleInputEmail1"
+                                aria-describedby="emailHelp">
+                            <div id="emailHelp" class="form-text">Tu correo nunca será publicado</div>
+                        </div>
+
+                        <div class="mb-3">
+                            <label for="inputNumeroTelefono" class="form-label">Número de teléfono</label>
+                            <input type="text" class="form-control">
+                        </div>
+
+                        <div class="mb-3">
+                            <label for="inputTorneo" class="form-label">Torneo a inscribirse</label>
+                            <select class="form-select" aria-label="Default select example">
+                                <option selected value="TorneoMarzo">Torneo Marzo 2022</option>
+                                <option value="CopaInvierno">Copa Invierno 2022</option>
+                            </select>
+                        </div>
+
+                        <div class="mb-3">
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                <label class="form-check-label" for="flexCheckDefault">
+                                    Acepto los <a href="#">Terminos y Condiciones</a>
+                                </label>
+                            </div>
+                        </div>
+
+                        <div class="mb-3">
+                            <input type="submit" value="Inscribirse" class="btn btn-primary col-12">
+                        </div>
+
+                    </form>
+                </div>
+            </div>
+        </div>
+
+    </main>
+
+    <footer>
+        <div class="container-fluid bg-dark py-3 text-light">
+            <div class="row">
+                <div class="col-md-4 d-flex flex-column align-items-center">
+                    <span class="d-block fs-5">Contacto</span>
+                    <span class="d-block pb-2">¿Dudas? ¡Pregúntanos!</span>
+                    <div class="form-floating col-10 text-dark pb-3">
+                        <textarea class="textAreaPersonalizado form-control" placeholder="Leave a comment here"
+                            id="floatingTextarea2"></textarea>
+                        <label for="floatingTextarea2">Envíanos tu consulta</label>
+                    </div>
+                    <input class="btn btn-light mb-4" type="submit" value="Enviar">
+
+                    <span class="d-block fs-5 pb-2">Teléfono</span>
+                    <span class="d-block pb-1">+54 261-9 999 999</span>
+                    <span class="d-block pb-1">+54 4-286-275</span>
+                </div>
+
+                <div class="col-md-4 d-flex flex-column align-items-center">
+                    <span class="d-block fs-5 mt-4 mt-md-0">Donde nos encontramos</span>
+                    <span class="d-block pb-2">Guardia Vieja 1001, Mendoza</span>
+                    <iframe class="col-10"
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1026.6291548200215!2d-68.90912971301499!3d-33.023253408111756!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x59d9653fd575d3c!2sKarting%20Club%20Lujan!5e1!3m2!1ses-419!2sar!4v1651001293579!5m2!1ses-419!2sar"
+                        height="200" style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="d-flex flex-column align-items-center">
+                        <span class="d-block fs-5 mt-4 mt-md-0">Suscríbete</span>
+                        <span class="d-block pb-2 text-center">
+                            ¡Ingresa tu correo y recibe todas las novedades de Karting World!
+                        </span>
+                    </div>
+
+                    <div class="container-fluid">
+                        <div class="input-group mb-3">
+                            <input type="email" class="form-control" placeholder="Email"
+                                aria-label="Recipient's username" aria-describedby="button-addon2">
+                            <button class="btn btn-danger" type="button" id="button-addon2">
+                                Suscribirse
+                            </button>
+                        </div>
+                    </div>
+
+                    <div class="d-flex flex-column align-items-center">
+                        <span class="d-block fs-5 mt-4 pb-2">Síguenos en nuestras redes</span>
+                        <div class="container d-flex flex-row justify-content-evenly">
+
+                            <a href="https://www.facebook.com/" target="_blank">
+                                <img class="imageFooter" src="../images/facebookIco.png" alt="Facebook">
+                            </a>
+
+                            <a href="https://www.twitter.com/" target="_blank">
+                                <img class="imageFooter" src="../images/twitterIco.png" alt="Twitter">
+                            </a>
+
+                            <a href="https://www.instagram.com/" target="_blank">
+                                <img class="imageFooter" src="../images/instagramIco.png" alt="Instagram">
+                            </a>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
