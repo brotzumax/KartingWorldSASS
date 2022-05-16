@@ -1,32 +1,33 @@
-.imagenSobreNosotros {
+@mixin borderStyle {
+    border: 2px solid black;
+    border-radius: 25px;
+}
+
+@mixin animationIndexImages($nombreAnimacion){
     width: 100%;
 
-    animation-name: rotacionImagenSobreNosotros;
+    animation-name: $nombreAnimacion;
     animation-iteration-count: infinite;
     animation-timing-function: ease-in-out;
     animation-duration: 10s;
 }
 
-.imagenPista {
-    width: 100%;
+.imagenSobreNosotros {
+    @include animationIndexImages(rotacionImagenSobreNosotros);
+}
 
-    animation-name: rotacionImagenNuestraPista;
-    animation-iteration-count: infinite;
-    animation-timing-function: ease-in-out;
-    animation-duration: 10s;
+.imagenPista {
+    @include animationIndexImages(rotacionImagenNuestraPista);
 }
 
 @media screen and (min-width: 768px) {
     .imagenSobreNosotros {
         width: 500px;
-        border: 2px solid black;
-        border-radius: 25px;
-
+        @include borderStyle;
     }
 
     .imagenPista {
-        border: 2px solid black;
-        border-radius: 25px;
+        @include borderStyle;
     }
 }
 

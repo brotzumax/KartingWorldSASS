@@ -97,3 +97,10 @@
 
 .imageFooter {
   width: 54px; }
+
+/*MAP*/
+.primerTitulo, .tercerTitulo {
+  color: #ff0000; }
+
+.segundoTitulo {
+  color: #000000; }

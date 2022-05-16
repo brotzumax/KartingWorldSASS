@@ -7,3 +7,19 @@
 @import "./resultados";
 @import "./animaciones";
 @import "./footer";
+
+/*MAP*/
+$titulos:(
+    primerTitulo: #ff0000,
+    segundoTitulo: #000000,
+);
+
+@each $titulo, $color in $titulos {
+    .#{$titulo}{
+        color: $color;
+    }
+}
+
+.tercerTitulo {
+    @extend .primerTitulo;
+}
