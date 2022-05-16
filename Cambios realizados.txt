@@ -1,0 +1,27 @@
+style.scss
+Agregado un map con colores para separar cada título de la página INDEX
+Agregado un extend para reutilizar un color de titulo
+
+_sobreNosotros.scss
+Agregados dos mixin, uno para reutilizar todas las instrucciones de animación de la página INDEX y otro para colocar el borde a las imágenes
+
+
+INDEX
+Palabras clave: KARTING, MENDOZA, CONDUCCION, CARRERA, EVENTOS, DEPORTE, AUTOMOVILISMO, PISTA
+Descripcion: En Karting World nos dedicamos a que disfrutes de la mejor experiencia al manejar, ya sea por competencia o diversión, de nuestros fabulosos kartings en nuestra pista. Contamos con el mejor y más experimentado equipo en el rubro.
+
+RESULTADOS
+Palabras clave: KARTING, MENDOZA, CONDUCCION, CARRERA, EVENTOS, DEPORTE, AUTOMOVILISMO, RESULTADOS, TORNEO, COMPETENCIA
+Descripcion: Karting World lleva un seguimiento continuo de absolutamente todos los torneos que se realizan, incluyendo posición y puntos acumulados hasta el momento.
+
+INSCRIPCIONES
+Palabras clave: KARTING, MENDOZA, CONDUCCION, CARRERA, DEPORTE, AUTOMOVILISMO, INSCRIPCION, REQUISITOS, TORNEO, COMPETENCIA
+Descripcion: Ven a Karting World e inscríbete en nuestros asombrosos torneos provinciales y nacionales, donde podrás demostrar todas tus habilidades de conducción en competencias únicas.
+
+GALERIA
+Palabras clave: KARTING, MENDOZA, CONDUCCION, CARRERA, EVENTOS, DEPORTE, AUTOMOVILISMO, FOTOS, IMAGENES, GALERIA
+Descripcion: Disfruta de nuestra colección de fotos y videos para que conozcas más de nosotros y de los mejores pilotos.
+
+EVENTOS
+Palabras clave: KARTING, MENDOZA, CONDUCCION, CARRERA, CUMPLEAÑOS, DEPORTE, TORNEO, EVENTO, DIVERSION
+Descripcion: En Karting World realizamos diferentes actividades para disfrutar con amigos o en familia, desde cumpleaños hasta reuniones de trabajo.
